@@ -2,7 +2,7 @@ import tensorflow as tf
 from tensorflow import keras
 
 from funciones import *
-
+#Reconocimiento de Vestuario
 
 def iniciarModelo():
     ropa_mnist = keras.datasets.fashion_mnist
